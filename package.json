@@ -3,7 +3,7 @@
   "displayName": "Pastel Soft Dark",
   "description": "Modern dark theme with soft colors",
   "publisher": "vitormil",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.57.0"
   },

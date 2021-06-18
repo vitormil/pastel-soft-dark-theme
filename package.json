@@ -1,0 +1,33 @@
+{
+  "name": "pastel-soft-dark",
+  "displayName": "Pastel Soft Dark",
+  "description": "Modern dark theme with soft colors",
+  "publisher": "vitormil",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.57.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:vitormil/pastel-soft-dark-theme.git"
+  },
+  "keywords": [
+    "visual studio code theme",
+    "theme",
+    "pastel",
+    "soft dark",
+    "pastel soft dark"
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Pastel Soft Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Pastel Soft Dark-color-theme.json"
+      }
+    ]
+  }
+}

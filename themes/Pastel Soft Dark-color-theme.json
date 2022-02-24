@@ -806,13 +806,7 @@
       }
     },
     {
-      "scope": [
-        "entity.other.inherited-class",
-        "meta.object-literal.key.js",
-        "meta.object-literal.key.ts",
-        "meta.object-literal.key.jsx",
-        "meta.object-literal.key.tsx"
-      ],
+      "scope": ["entity.other.inherited-class", "meta.object-literal.key"],
       "settings": {
         "foreground": "#87CAD8",
         "fontStyle": "italic"
@@ -1269,9 +1263,7 @@
       "scope": [
         "entity.name.fragment.graphql",
         "variable.fragment.graphql",
-        "variable.other.constant.js",
-        "variable.other.constant.ts",
-        "variable.other.constant.tsx"
+        "variable.other.constant"
       ],
       "settings": {
         "foreground": "#87CAD8"
@@ -1363,72 +1355,18 @@
     },
     {
       "scope": [
-        "keyword.control.export.js",
-        "keyword.control.import.js",
-        "keyword.control.from.js",
-        "storage.type.js",
-        "constant.language.boolean.false.js",
-        "constant.language.boolean.true.js",
-        "constant.language.null.js",
-        "keyword.control.flow.js",
-        "keyword.control.trycatch.js",
-        "storage.modifier.async.js",
-        "comment.line.double-slash.js",
+        "keyword.control.export",
+        "keyword.control.import",
+        "keyword.control.from",
+        "storage.type",
+        "constant.language.boolean.false",
+        "constant.language.boolean.true",
+        "constant.language.null",
+        "keyword.control.flow",
+        "keyword.control.trycatch",
+        "storage.modifier.async",
+        "comment.line.double-slash",
         "keyword.control.as"
-      ],
-      "settings": {
-        "fontStyle": "italic"
-      }
-    },
-    {
-      "scope": [
-        "keyword.control.export.jsx",
-        "keyword.control.import.jsx",
-        "keyword.control.from.jsx",
-        "storage.type.jsx",
-        "constant.language.boolean.false.jsx",
-        "constant.language.boolean.true.jsx",
-        "constant.language.null.jsx",
-        "keyword.control.flow.jsx",
-        "keyword.control.trycatch.jsx",
-        "storage.modifier.async.jsx",
-        "comment.line.double-slash.jsx"
-      ],
-      "settings": {
-        "fontStyle": "italic"
-      }
-    },
-    {
-      "scope": [
-        "keyword.control.export.ts",
-        "keyword.control.import.ts",
-        "keyword.control.from.ts",
-        "storage.type.ts",
-        "constant.language.boolean.false.ts",
-        "constant.language.boolean.true.ts",
-        "constant.language.null.ts",
-        "keyword.control.flow.ts",
-        "keyword.control.trycatch.ts",
-        "storage.modifier.async.ts",
-        "comment.line.double-slash.ts"
-      ],
-      "settings": {
-        "fontStyle": "italic"
-      }
-    },
-    {
-      "scope": [
-        "keyword.control.export.tsx",
-        "keyword.control.import.tsx",
-        "keyword.control.from.tsx",
-        "storage.type.tsx",
-        "constant.language.boolean.false.tsx",
-        "constant.language.boolean.true.tsx",
-        "constant.language.null.tsx",
-        "keyword.control.flow.tsx",
-        "keyword.control.trycatch.tsx",
-        "storage.modifier.async.tsx",
-        "comment.line.double-slash.tsx"
       ],
       "settings": {
         "fontStyle": "italic"

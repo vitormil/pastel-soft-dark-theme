@@ -35,7 +35,7 @@
     "editor.lineHighlightBackground": "#353535",
     "editor.lineHighlightBorder": "#353535",
     "editor.rangeHighlightBackground": "#bd93f915",
-    "editor.selectionBackground": "#44475a",
+    "editor.selectionBackground": "#2F4A91",
     "editor.selectionHighlightBackground": "#424450",
     "editor.snippetFinalTabstopHighlightBackground": "#282a36",
     "editor.snippetFinalTabstopHighlightBorder": "#58D076",
@@ -162,7 +162,7 @@
     "statusBarItem.remoteBackground": "#AB8ED6",
     "statusBarItem.remoteForeground": "#f6f6f4",
     "tab.activeBackground": "#282a36",
-    "tab.activeBorderTop": "#ff79c680",
+    "tab.activeBorderTop": "#eefa80",
     "tab.activeForeground": "#f6f6f4",
     "tab.border": "#191a21",
     "tab.hoverBackground": "#323842",
@@ -788,7 +788,7 @@
       "scope": ["entity.name.type.class", "entity.name.class"],
       "settings": {
         "foreground": "#87CAD8",
-        "fontStyle": "normal"
+        "fontStyle": ""
       }
     },
     {
@@ -806,7 +806,13 @@
       }
     },
     {
-      "scope": ["entity.other.inherited-class"],
+      "scope": [
+        "entity.other.inherited-class",
+        "meta.object-literal.key.js",
+        "meta.object-literal.key.ts",
+        "meta.object-literal.key.jsx",
+        "meta.object-literal.key.tsx"
+      ],
       "settings": {
         "foreground": "#87CAD8",
         "fontStyle": "italic"
@@ -957,8 +963,7 @@
     {
       "scope": ["support"],
       "settings": {
-        "foreground": "#87CAD8",
-        "fontStyle": "italic"
+        "foreground": "#87CAD8"
       }
     },
     {
@@ -969,13 +974,13 @@
       ],
       "settings": {
         "foreground": "#AB8ED6",
-        "fontStyle": "regular"
+        "fontStyle": ""
       }
     },
     {
       "scope": ["support.function", "support.type.property-name"],
       "settings": {
-        "fontStyle": "regular"
+        "fontStyle": ""
       }
     },
     {
@@ -1083,7 +1088,7 @@
       ],
       "settings": {
         "foreground": "#D978B0",
-        "fontStyle": "regular"
+        "fontStyle": ""
       }
     },
     {
@@ -1220,10 +1225,7 @@
       "scope": [
         "variable",
         "constant.other.key.perl",
-        "support.variable.property",
-        "variable.other.constant.js",
-        "variable.other.constant.ts",
-        "variable.other.constant.tsx"
+        "support.variable.property"
       ],
       "settings": {
         "foreground": "#e1e1e1"
@@ -1248,7 +1250,7 @@
       ],
       "settings": {
         "foreground": "#e1e1e1",
-        "fontStyle": "normal"
+        "fontStyle": ""
       }
     },
     {
@@ -1264,7 +1266,13 @@
       }
     },
     {
-      "scope": ["entity.name.fragment.graphql", "variable.fragment.graphql"],
+      "scope": [
+        "entity.name.fragment.graphql",
+        "variable.fragment.graphql",
+        "variable.other.constant.js",
+        "variable.other.constant.ts",
+        "variable.other.constant.tsx"
+      ],
       "settings": {
         "foreground": "#87CAD8"
       }
@@ -1299,7 +1307,7 @@
       "scope": ["support.constant"],
       "settings": {
         "foreground": "#AB8ED6",
-        "fontStyle": "normal"
+        "fontStyle": ""
       }
     },
     {
@@ -1351,6 +1359,78 @@
       "scope": "token.debug-token",
       "settings": {
         "foreground": "#B267E6"
+      }
+    },
+    {
+      "scope": [
+        "keyword.control.export.js",
+        "keyword.control.import.js",
+        "keyword.control.from.js",
+        "storage.type.js",
+        "constant.language.boolean.false.js",
+        "constant.language.boolean.true.js",
+        "constant.language.null.js",
+        "keyword.control.flow.js",
+        "keyword.control.trycatch.js",
+        "storage.modifier.async.js",
+        "comment.line.double-slash.js"
+      ],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "keyword.control.export.jsx",
+        "keyword.control.import.jsx",
+        "keyword.control.from.jsx",
+        "storage.type.jsx",
+        "constant.language.boolean.false.jsx",
+        "constant.language.boolean.true.jsx",
+        "constant.language.null.jsx",
+        "keyword.control.flow.jsx",
+        "keyword.control.trycatch.jsx",
+        "storage.modifier.async.jsx",
+        "comment.line.double-slash.jsx"
+      ],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "keyword.control.export.ts",
+        "keyword.control.import.ts",
+        "keyword.control.from.ts",
+        "storage.type.ts",
+        "constant.language.boolean.false.ts",
+        "constant.language.boolean.true.ts",
+        "constant.language.null.ts",
+        "keyword.control.flow.ts",
+        "keyword.control.trycatch.ts",
+        "storage.modifier.async.ts",
+        "comment.line.double-slash.ts"
+      ],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "keyword.control.export.tsx",
+        "keyword.control.import.tsx",
+        "keyword.control.from.tsx",
+        "storage.type.tsx",
+        "constant.language.boolean.false.tsx",
+        "constant.language.boolean.true.tsx",
+        "constant.language.null.tsx",
+        "keyword.control.flow.tsx",
+        "keyword.control.trycatch.tsx",
+        "storage.modifier.async.tsx",
+        "comment.line.double-slash.tsx"
+      ],
+      "settings": {
+        "fontStyle": "italic"
       }
     }
   ]

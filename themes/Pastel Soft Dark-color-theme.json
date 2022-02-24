@@ -1373,7 +1373,8 @@
         "keyword.control.flow.js",
         "keyword.control.trycatch.js",
         "storage.modifier.async.js",
-        "comment.line.double-slash.js"
+        "comment.line.double-slash.js",
+        "keyword.control.as"
       ],
       "settings": {
         "fontStyle": "italic"
